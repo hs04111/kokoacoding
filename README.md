@@ -1,3 +1,3 @@
 # Kokoacoding 2020
 
-CSS got so much better!
+HTML and CSS are so much fun!
