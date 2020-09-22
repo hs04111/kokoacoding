@@ -23,14 +23,17 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <h1 class="welcome-header__title">Welcome to Kokoa talk Clone</h1>
       <p class="welcome-header__text">
         If you have a Kokoa Account, log in with your email or phone number.
       </p>
     </header>
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+
+    <form action="friends.html" method="get" id="login-form">
+      <!--action: data를 어느 url로 보낼 것인가, submit 버튼 누르면 어디로 갈 것인가? method: get과 post가 있으나 post는 서버가 없으면 사용 X get은 다음 페이지 url에 표시될 것 -->
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <!--name을 정해야 다음 페이지 url에 나온다-->
+      <input name="password" type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
       <a href="#">Find Kokoa Account or Password</a>
     </form>

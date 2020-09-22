@@ -1,0 +1,22 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /*위 코드는 네비게이션이 스크롤할 때에도 아래에 붙어있게 한다.*/
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  /*위 코드가 없으면 기본으로, box사이즈는 width 100% + padding 50px로 화면을 넘어가버린다! */
+  /*기본 세팅에서는 패딩을 설정하면 width를 유지하기 위해 그만큼 전체 박스가 늘어나기 때문이다*/
+  /*위 코드는 패딩을 줘도 박스 크기를 늘리지 말라는 코드이다. 없애면 네비게이션이 오른쪽으로 튀어나간다*/
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.nav__link {
+  color: #2f363e;
+}
