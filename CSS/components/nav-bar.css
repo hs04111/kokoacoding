@@ -9,7 +9,7 @@
   /*위 코드가 없으면 기본으로, box사이즈는 width 100% + padding 50px로 화면을 넘어가버린다! */
   /*기본 세팅에서는 패딩을 설정하면 width를 유지하기 위해 그만큼 전체 박스가 늘어나기 때문이다*/
   /*위 코드는 패딩을 줘도 박스 크기를 늘리지 말라는 코드이다. 없애면 네비게이션이 오른쪽으로 튀어나간다*/
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 .nav__list {
   display: flex;
@@ -19,4 +19,30 @@
 
 .nav__link {
   color: #2f363e;
+  position: relative;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  border-radius: 15px;
+  position: absolute;
+  left: 15px;
+  bottom: 13px;
+}
+
+.nav__reddot {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  right: -8px;
+  top: -12px;
 }
