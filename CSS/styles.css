@@ -6,13 +6,18 @@
 
 /*Screens*/
 @import "screens/login.css";
+@import "screens/friends.css";
 
 /*Components*/
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 
 /*import 기능은 현재의 styles.css 파일로 다른 css 파일을 import하여 html에 연계한다*/
 
 body {
+  color: #2f363e;
   font-family: "Noto Sans TC", sans-serif;
+  height: 500vh;
 }
