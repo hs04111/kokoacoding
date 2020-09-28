@@ -27,6 +27,9 @@
   font-size: 17px;
   color: var(--grey-letter);
 }
+.user-component__subtitle i {
+  color: tomato;
+}
 
 .user-component__avatar--xl {
   width: 80px;
