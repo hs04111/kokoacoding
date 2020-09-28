@@ -27,13 +27,3 @@
   left: 15px;
   bottom: 13px;
 }
-
-.nav__reddot {
-  background-color: tomato;
-  width: 6px;
-  height: 6px;
-  border-radius: 3px;
-  position: absolute;
-  right: -8px;
-  top: -12px;
-}
