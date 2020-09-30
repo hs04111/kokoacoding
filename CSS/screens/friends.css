@@ -29,3 +29,28 @@
   justify-content: space-between;
   color: var(--grey-letter);
 }
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden; /*이게 없으면 첫 화면 지나가도 클릭 등이 안됨 */
+  }
+}
+
+#splash-screen {
+  background-color: var(--green);
+  position: absolute; /*body 기준으로 움직일 것*/
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  animation: hideSplashScreen 0.4s ease-in-out forwards; /*forwards는 마지막 상태를 유지한다. opacity를 0으로 유지하게 된다.*/
+  animation-delay: 1s; /*설정 시간이 지난 후 애니메이션 작동*/
+}
