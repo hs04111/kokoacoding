@@ -1,7 +1,8 @@
 /* text들을 모두 가운데 정렬하기 위해 flex 사용, 
 flex-direction과  align-items:center 사용*/
 .welcome-header {
-  margin: 90px 0px;
+  margin: 0px 0px 90px 0px;
+  padding-top: 90px;
   text-align: center;
   display: flex;
   flex-direction: column;
