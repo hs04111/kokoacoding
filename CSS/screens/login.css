@@ -2,7 +2,7 @@
 flex-direction과  align-items:center 사용*/
 .welcome-header {
   margin: 0px 0px 90px 0px;
-  padding-top: 90px;
+  padding-top: 95px;
   text-align: center;
   display: flex;
   flex-direction: column;
