@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  width: 400px;
+  border: 4px solid #13cab2;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.title i {
+  position: absolute;
+  left: 35px;
+}
+
+.user-component__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-component {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+.user-component,
+.user-component__column {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 15px;
+  margin-right: 20px;
+  border: 2px solid black;
+  background-color: #ffbd11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-component__avatar i {
+  color: white;
+}
+
+.user-component__title {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.user-component__subtitle {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btnset {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+.btnset_play {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.btnset_play span {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.btnset_heart,
+.btnset_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.shadow_border {
+  border: 2px solid black;
+
+  box-shadow: 0px 4px black;
+}
+
+.user-component__avatar--sm {
+  width: 55px;
+  height: 55px;
+  border-radius: 15px;
+}
+
+.user-component__title--sm {
+  font-size: 22px;
+}
+.user-component__subtitle--sm {
+  font-weight: 500;
+  font-size: 16px;
+  opacity: 0.8;
+  margin-top: 6px;
+}
+
+.first_color {
+  background-color: #f85a2a;
+}
+
+.second_color {
+  background-color: #ff89bb;
+}
+.third_color {
+  background-color: #1947e5;
+}
+.fourth_color {
+  background-color: #00c6ad;
+}
