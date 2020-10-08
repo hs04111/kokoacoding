@@ -1,0 +1,308 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 340px;
+  position: relative;
+  margin-bottom: 55px;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #ffce33;
+  padding: 35px 20px 50px 20px;
+}
+
+.icon__title:nth-child(2) {
+  font-weight: bold;
+}
+
+.search__book {
+  position: absolute;
+  top: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.search__book input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  padding: 0px 30px;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.05);
+}
+
+.search__book input::placeholder {
+  opacity: 0.4;
+}
+
+.search__book i {
+  position: absolute;
+  right: 30px;
+  bottom: 15px;
+  opacity: 0.2;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 340px;
+}
+
+.contents {
+  width: 100%;
+}
+
+.main__title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.book_contents {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.book_contents img {
+  width: 110px;
+  height: 160px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.text__btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text__title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.text__subtitle {
+  font-size: 15px;
+  opacity: 0.3;
+  font-weight: bold;
+}
+
+.five_stars {
+  color: #ffce33;
+}
+
+.text__tags {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.text__tags span {
+  background-color: #f7f7f7;
+  margin-right: 10px;
+  padding: 0px 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.btn__buybooks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bookmark_icon {
+  background-color: #ffce33;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.btn__buybooks span {
+  background-color: black;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.coffee__list {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.coffee__stars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.coffee__stars img {
+  width: 70px;
+  height: 110px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.coffee__stars i {
+  font-size: 3px;
+  margin-bottom: 20px;
+}
+
+.popular__Coffee img {
+  width: 110px;
+  height: 130px;
+}
