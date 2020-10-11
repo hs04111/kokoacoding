@@ -10,7 +10,7 @@ flex-direction과  align-items:center 사용*/
 }
 
 .welcome-header__title {
-  margin-bottom: 20px;
+  margin: 20px 0px;
   font-size: 25px;
 }
 
@@ -23,6 +23,7 @@ flex-direction과  align-items:center 사용*/
 #login-form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin: 0px 30px;
 }
 
